@@ -22,7 +22,6 @@
     flex: 1;
     padding-left: 120px;
 }
-
 .nav-bar .logo p{
     /* font-size: x-large; */
     font-weight: bold;
@@ -45,8 +44,6 @@ p span{
     justify-content: space-between;
 }
 
-
-
 .menu ul li {
     list-style: none;
     display: inline-block;
@@ -68,12 +65,15 @@ p span{
     color: #fff;
     margin-left: 30px;
     font-weight: bold;
+    font-size: 15px;
+    transition: 500ms easeim;
 }
 .primary-btn:hover{
     background-color: #fff;
     color: #f46b27;
     border: 1px solid #f46b27;
 }
+
 .header-body{
     height: auto;
     margin-top: 40px;
@@ -104,13 +104,14 @@ p span{
     width: 150px;
     border: none;
     cursor: pointer;
+    transition: 500ms ease-in-out;
+    font-weight: 800;
 }
 
 .btn-1{
     background-color: #f46b27;
     color: #fff;
 }
-
 .btn-1:hover{
     background-color: #fff;
     color: #f46b27;
@@ -156,3 +157,42 @@ p span{
     text-align: center;
     font-weight: 600;
 }
+
+
+/*    This is Section 2    */
+
+.row-1, .row-2{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    width: 100%;
+    
+}
+.row-1{
+    margin-top: 100px;
+}
+
+.row-1 .content, .row-2 .content{
+    flex: 1;
+} 
+.row-1 .image{
+    padding-left: 120px;
+    flex: 1;
+}
+.row-1 .image img{
+    border-radius: 5px;
+}
+.row-1 .content{
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    flex: 1;
+}
+.row-1 .content h1{
+    line-height: 30px;
+}
+.row-1 .content p{
+    margin-top: 10px;
+    
+}
+
