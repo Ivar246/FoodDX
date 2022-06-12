@@ -192,7 +192,7 @@ p span{
 }
 .row-1 .content p, .row-2 .content p{
     margin-top: 20px;
-    color: #d4d4d4;
+    color: #a1a0a0;
 }
 
 .content .btn-1{
@@ -211,6 +211,7 @@ p span{
 .row-2 ul li{
     list-style: none;
     font-size: 14px;
+    color: #928b8b;
 }
 .row-2 ul li:before { 
     content:"\2714\0020";
@@ -227,6 +228,7 @@ p span{
     height: 250px;
     width: 100%;
     background: url(/images/doughnut.png);
+    background-size: cover;  
     margin-top: 120px;
 }
 .section-3 p{
@@ -243,11 +245,59 @@ p span{
 .explore .text-area p{
     text-align: center;
     font-size: 15px;
-    color: #9f9f9f;
+    color: #928b8b;
+    padding-top: 20px;
 }
 
 .explore .text-area h1{
     text-align: center;
 }
+.row-explore{
+    margin-top: 50px;
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 100px;
+    flex-wrap: wrap;
+}
 
+.row-explore .col{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    height: auto;
+    
+}
+.row-explore .col .rainbow{
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 15px;
+}
+.col p{
+    font-size: 12px;
+}
+.col h3{
+    padding-top: 15px;
+    font-size: 15px;
+    color: #f46b27;
+}
+.col h3 del{
+    color: #9f9f9f;
+}
+ 
+.col h3:after{
+    content: '';
+    height: 15px;
+    width: 90%;
+    background-color: #2e2828;
+
+}
+
+.row-explore .col img{
+    height: 100%;
+    width: 300px;
+}
 
