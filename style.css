@@ -229,6 +229,7 @@ p span{
     width: 100%;
     background: url(/images/doughnut.png);
     background-size: cover;  
+    background-position: center;
     margin-top: 120px;
 }
 .section-3 p{
@@ -288,16 +289,20 @@ p span{
     color: #9f9f9f;
 }
  
-.col h3:after{
+.row-explore .col h3::after{
     content: '';
-    height: 15px;
-    width: 90%;
+    height: 150px;
+    width: 200px;
     background-color: #2e2828;
+
 
 }
 
 .row-explore .col img{
     height: 100%;
     width: 300px;
+}
+.col button{
+    margin-top: 25px;
 }
 
