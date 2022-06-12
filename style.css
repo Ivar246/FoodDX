@@ -66,7 +66,7 @@ p span{
     margin-left: 30px;
     font-weight: bold;
     font-size: 15px;
-    transition: 500ms easeim;
+    transition: 500ms ease-in-out;
 }
 .primary-btn:hover{
     background-color: #fff;
@@ -193,6 +193,7 @@ p span{
 .row-1 .content p, .row-2 .content p{
     margin-top: 20px;
 }
+
 .content .btn-1{
     margin-top: 20px;
 }
@@ -210,8 +211,7 @@ p span{
     list-style: none;
     font-size: 14px;
 }
-
-ul li:before { 
+.row-2 ul li:before { 
     content:"\2714\0020";
     font-size: 15px;
     color: #f46b27;
