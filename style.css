@@ -192,6 +192,7 @@ p span{
 }
 .row-1 .content p, .row-2 .content p{
     margin-top: 20px;
+    color: #d4d4d4;
 }
 
 .content .btn-1{
@@ -231,8 +232,22 @@ p span{
 .section-3 p{
     padding-top: 20px;
     color: #fff;
+    text-align: center;
 }
 
-.section-4{
-    margin-top: 200px;
+.explore{
+    margin-top: 60px;
+    height: auto;
+    width: 100%;
 }
+.explore .text-area p{
+    text-align: center;
+    font-size: 15px;
+    color: #9f9f9f;
+}
+
+.explore .text-area h1{
+    text-align: center;
+}
+
+
