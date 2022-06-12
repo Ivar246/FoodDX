@@ -164,35 +164,75 @@ p span{
 .row-1, .row-2{
     display: flex;
     align-items: center;
-    /* justify-content: space-around; */
     width: 100%;
     
 }
-.row-1{
+.row-1, .row-2{
     margin-top: 100px;
 }
-
 .row-1 .content, .row-2 .content{
+    display: flex;
+    flex-direction: column;
     flex: 1;
 } 
 .row-1 .image{
     padding-left: 120px;
     flex: 1;
 }
-.row-1 .image img{
-    border-radius: 5px;
+.image img{
+    border-radius: 7px;
 }
 .row-1 .content{
     display: flex;
     flex-direction: column;
-    padding-left: 50px;
     flex: 1;
 }
-.row-1 .content h1{
+.row-1 h2, .row-2 h2{
     line-height: 30px;
 }
-.row-1 .content p{
-    margin-top: 10px;
-    
+.row-1 .content p, .row-2 .content p{
+    margin-top: 20px;
+}
+.content .btn-1{
+    margin-top: 20px;
 }
 
+.row-2 .content{
+    padding-left: 120px;
+} 
+.row-2 .image{
+    flex: 1;
+}
+.row-2 ul{
+    padding-top: 20px;
+}
+.row-2 ul li{
+    list-style: none;
+    font-size: 14px;
+}
+
+ul li:before { 
+    content:"\2714\0020";
+    font-size: 15px;
+    color: #f46b27;
+} 
+
+/* This is section-3  */
+.section-3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background: url(/images/doughnut.png);
+    margin-top: 120px;
+}
+.section-3 p{
+    padding-top: 20px;
+    color: #fff;
+}
+
+.section-4{
+    margin-top: 200px;
+}
