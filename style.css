@@ -314,7 +314,7 @@ p span{
 }
 
 .testemonials{
-    height: 400px;
+    height: 500px;
     width: 100%;
     margin-top: 60px;
     padding-top: 60px;
@@ -365,4 +365,54 @@ p span{
 
 .circle :nth-child(1){
     background-color: #fff;
+}
+
+
+/*   This is FAQ section */
+.faq{
+    padding-top: 50px;
+}
+.faq h1{
+    text-align: center;
+}
+.row-faq{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+
+.row-faq .col{
+    max-width: 400px;
+}
+.row-faq .col h3{
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+}
+.row-faq .col h3::before{
+    content: '~';
+    color: #f44336;
+    padding-right: 2px;
+    font-size: 25px;
+    
+}
+.row-faq .col p{
+    padding-top: 10px;
+    color: #afa1a1;
+}
+
+
+.quotation{
+    height: 150px;
+    width: 100%;
+    background: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+.quotation h1{
+    color: #fff;
 }
